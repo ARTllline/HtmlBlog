@@ -1,0 +1,699 @@
+*
+{
+    transition: all .2s;
+}
+
+body
+{
+    margin: 0;
+}
+
+.smallScreenCont
+{
+    display: none;
+}
+
+h1{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+h2{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 300;
+    margin-bottom: 1px;
+}
+
+.headerPics img
+{
+    height: 30px;
+    filter: contrast(50%);
+}
+
+.threeforce
+ {
+        display: none;
+}
+
+button
+{
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 10px 10px;
+    color: rgb(114, 114, 114);
+    padding: 10px 30px 10px 30px;
+    font-size: 1.2vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+header
+{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    margin-top: -50px;
+    
+}
+header > :nth-child(1)
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 95%;
+    margin: 0px 20px;
+}
+header > :nth-child(2)
+{
+    background: lightgray;
+    height: 1px;
+    margin: 0px 10px;
+}
+header > div div
+{
+    display: flex;
+    flex-direction: row;
+}
+header > div div *
+{
+    margin-right: 15px;
+}
+header > div > :nth-child(1) > *
+{
+    margin: 15px;
+}
+
+.grayLine
+{
+height: 1px;
+background: lightgray;
+margin: 0px 10px;
+}
+
+main
+{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.textMain
+{
+    font-size: 25px;
+    text-align: justify;
+}
+.textMain p
+{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.helloBlock
+{
+    display: flex;
+    flex-direction: row;
+    height: 50vw;
+}
+
+
+.helloBlock > div:nth-child(1) 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 50%;
+    height: 100%;
+}
+
+
+.helloBlock > div:nth-child(2) 
+{
+    width: 50%;
+    margin-right: 1%;
+    background-image: url(img/main.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.mainBlock1
+{
+    display: flex;
+    flex-direction: row;
+    height: 40vw;
+}
+.mainBlock1 > div:nth-child(1) 
+{
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 5%;
+    
+    background-image: url(img/aside1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mainBlock1 > div:nth-child(2) 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 70%;
+    height: 100%;
+}
+
+.mainBlock2
+{
+    display: flex;
+    flex-direction: row;
+    height: 40vw;
+   
+}
+.mainBlock2 > div:nth-child(2) 
+{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 1%;
+    background-image: url(img/aside2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mainBlock2 > div:nth-child(1) 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 70%;
+    height: 100%;
+}
+
+.galery
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 20vw;
+    width: 100%;
+}
+
+.galery:nth-child(1)
+{
+    width: 30%;
+}
+
+.galery:nth-child(2)
+{
+    width: 40%;
+}
+
+.galery:nth-child(3)
+{
+    width: 10%;
+}
+
+.galery img
+{
+    width: auto;
+    height: 100%;
+}
+
+.holder
+{
+    position:relative;   
+    width: auto;
+    height: 100%;
+    margin:100px auto;
+}
+
+.block{
+    position:absolute;
+    left: 0;
+    bottom:0;
+    right: 0;
+    top:0;
+    background:rgba(61, 61, 61, 0.7);
+    padding:5px;
+    display:none;
+    text-align: center;
+    color: white;
+}
+
+.features
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2px;
+    width: 100%;
+    height: 50vw;
+    background: lightgray;
+    margin-bottom: 5%;
+}
+
+.features div
+{
+    height: 100%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: white;
+}
+
+.features div img
+{
+ margin-top: 20%;
+}
+
+.features div p
+{
+    margin: 0px 5%;
+    font-size:  16px;
+}
+
+
+
+aside
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.text
+{
+    border: 1px solid gray;
+    border-radius: 4px 4px;
+    font-size: 26px;
+    width: 90%;
+}
+.radio
+{
+ margin-top: 23px;
+ margin-left: 15px;
+}
+.checkbox
+{
+ margin-top: 23px;
+ margin-left: 15px;
+}
+select
+{
+    border: 1px solid gray;
+    border-radius: 4px 4px;
+    font-size: 26px;
+    width: 97%;
+}
+aside h1
+{
+    font-size: 31px;
+}
+aside > div
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.NEP div
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+textarea
+{
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 4px 4px;
+    width: 96.5%;
+    font-size: 26px;
+}
+
+.NEB
+{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 97%;
+}
+.NEB div
+{
+    margin-left: -15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.underline
+{
+margin-top: 70px;
+height: 1px;
+background: lightgray;
+}
+
+
+footer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h4
+{
+   color: gray;
+}
+
+footer > div
+{
+    display: flex;
+    flex-direction: row;
+}
+
+footer div div
+{
+    width: 40px;
+    height: 40px;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+footer div div img
+{
+    filter: contrast(50%);
+    width: 100%;
+    height: 100%;
+}
+
+
+.holder:hover .block{
+    display:block;
+}
+
+footer div div img:hover
+{
+    filter: contrast(100%);
+}
+
+@media only screen and (max-width: 850px)
+{
+.headerPics :nth-child(1)
+{
+    display: none;
+}
+.headerPics :nth-child(2)
+{
+    display: none;
+}
+.headerPics :nth-child(3)
+{
+    display: none;
+}
+.headerPics :nth-child(4)
+{
+    display: none;
+}
+.headerPics :nth-child(5)
+{
+    display: none;
+}
+
+.textMain
+{
+    font-size: 20px;
+}
+.textMain p
+{
+    font-size: 16px;
+
+}
+
+.helloBlock
+{
+    height: 75vw;
+}
+.helloBlock > div:nth-child(1) 
+{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.helloBlock > div:nth-child(2) 
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+.mainBlock1
+{
+    height: 65vw;
+}
+.mainBlock1 > div:nth-child(1) 
+{
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.mainBlock1 > div:nth-child(2) 
+{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.mainBlock2
+{
+    height: 65vw;
+}
+.mainBlock2 > div:nth-child(2) 
+{
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.mainBlock2 > div:nth-child(1) 
+{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.galery
+{
+    height: 30vw;
+}
+.pic3
+{
+    display: none;
+}
+.pic4
+{
+    display: none;
+}
+
+.features
+{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr  1fr;
+    height: 105vw;
+}
+}
+
+
+@media only screen and (max-width: 600px)
+{
+    header > :nth-child(1) h4
+    {
+     font-size: 30px;
+    }
+
+    header > :nth-child(1) p
+    {
+        display: none;
+    }
+
+    .threeforce
+    {
+        display: block;
+    }
+
+    .helloBlock
+    {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+        height: 200vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .helloBlock > div:nth-child(1) 
+    {
+        justify-content: flex-start;
+        width: 80%;
+        height: 50%;
+    }
+    
+    .helloBlock > div:nth-child(2) 
+    {
+        width: 100%;
+        height: 100%;
+        background-position: 50% 100%;
+    }
+
+    
+.textMain
+{
+    font-size: 20px;
+    text-align: start;
+}
+.textMain p
+{
+    font-size: 16px;
+}
+
+button
+{
+    border-radius: 5px 5px;
+    color: rgb(114, 114, 114);
+    padding: 10px 30px 10px 30px;
+    font-size: 3vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+.mainBlock1
+{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 175vw;
+    margin-left: 0;
+    margin-right: 0;
+}
+.mainBlock1 > div:nth-child(1) 
+{
+    width: 100%;
+    height: 100%;
+    background-position: 50% 80%;
+}
+.mainBlock1 > div:nth-child(2) 
+{
+    justify-content: flex-start;
+    width: 80%;
+    height: 65%;
+}
+
+.mainBlock2
+{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 100%;
+    height: 165vw;
+    margin-left: 0;
+    margin-right: 0;
+}
+.mainBlock2 > div:nth-child(2) 
+{
+    width: 100%;
+    height: 50%;
+    background-position: 50% 50%;
+}
+.mainBlock2 > div:nth-child(1) 
+{
+    justify-content: flex-start;
+    width: 80%;
+    height: 45%;
+}
+
+.galery
+{
+    height: 50vw;
+}
+
+.holder
+{
+    margin: 0;
+}
+
+.pic2
+{
+    display: none;
+}
+
+.features
+{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 100%;
+}
+
+.features div p
+{
+    margin: 10px 130px;
+    margin-bottom: 50px;
+}
+
+.featuresUnderline
+{
+background: lightgray;
+height: 2px;
+}
+
+aside
+{ 
+    margin-top: 30px;
+    width: 90%;
+}
+
+.NEP
+{
+    flex-direction: column;
+}
+
+.smallScreenCont
+{
+    display: block;
+    margin-bottom: 1px;
+}
+
+.bigScreenCont
+{
+    display: none;
+}
+
+.NER{
+    justify-content: center;
+}
+
+.NER h4
+{
+margin-right: 40px;
+}
+
+}
