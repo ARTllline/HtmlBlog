@@ -210,6 +210,7 @@ main
     justify-content: center;
     height: 20vw;
     width: 100%;
+    overflow: hidden;
 }
 
 .galery:nth-child(1)
@@ -238,7 +239,6 @@ main
     position:relative;   
     width: auto;
     height: 100%;
-    margin:100px auto;
 }
 
 .block{
